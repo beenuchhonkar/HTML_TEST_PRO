@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(139, 59, 204);
+}
+
+.header .banner{
+    font-family:cursive;
+    color: darkslategray;
+
+}
+.sub-heading_banner{
+    font-family:cursive;
+    font-size: 18px;
+}
+.navigation{
+    right: 13px;
+    bottom: 10px;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+}
+.row div{
+    margin: 40px;
+    background: rgb(247, 107, 149);
+    color: black;
+    min-height: 100px;
+    border: 5px solid rgb(63, 19, 167);
+    border-radius: 30px;
+    padding: 50px 20px;
+    cursor: pointer;
+}
+.row div:hover{
+    background: blue;
+    color: red;
+}
